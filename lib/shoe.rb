@@ -9,7 +9,13 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+<<<<<<< HEAD
     BRANDS << brand unless BRANDS.any? { |b| b == brand }
+=======
+    if 
+    BRANDS << @brand
+    
+>>>>>>> 547c40ed74f2a705ffe210a9850973c5240f927c
   end
 
 
