@@ -9,12 +9,6 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-<<<<<<< HEAD
-
-    if 
-    BRANDS << @brand
-    
->>>>>>> 547c40ed74f2a705ffe210a9850973c5240f927c
   end
 
 
@@ -22,6 +16,4 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
-  
 end
